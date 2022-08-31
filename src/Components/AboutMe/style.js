@@ -111,7 +111,7 @@ export const Conteudo = styled.div`
         text-align: center;
       }
 
-      @media (max-width: 440px) {
+      @media (max-width: 660px) {
         font-size: 4.5vw;
       }
     }
@@ -120,7 +120,7 @@ export const Conteudo = styled.div`
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      width: auto;
+      width: 100%;
       margin-left: 5%;
       @media (max-width: 440px) {
         font-size: 2vw;

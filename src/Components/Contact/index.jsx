@@ -1,5 +1,15 @@
 import { Container } from "./style";
 import { useEffect } from "react";
+
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import {BiUserCircle } from "react-icons/bi";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import {HiOutlineDocumentText } from "react-icons/hi"
+
+
+
 import emailjs from "emailjs-com";
 import ContactForm from "../Form";
 import linkedin from "../../Assets/linkedin.png";
@@ -21,42 +31,49 @@ const Contact = () => {
   }, []);
 
   return (
-    <Container>
-      <h1>Contato</h1>
+    <Container id="contact">
+      <h1>Contatos</h1>
       <div className="infos">
+      <ContactForm />
         <div className="dados">
           <div className="item">
             <a>
-              <img alt="user" src={user} />
+              <BiUserCircle/>
               Daniel Leira
             </a>
           </div>
           <div className="item">
             <a>
-              <img alt="whatsapp" src={whatsapp} />
+              <AiOutlineWhatsApp/>
               (21)98816-0902
             </a>
           </div>
           <div className="item">
             <a href="mailto:daniel7leira@gmail.com">
-              <img alt="email" src={email} />
+              <AiOutlineMail/>
               daniel_leira@hotmail.com
             </a>
           </div>
           <div className="item">
             <a href="https://linkedin.com/in/leira-daniel">
-              <img alt="linkedin" src={linkedin} />
+              <AiFillLinkedin/>
               Linkedin
             </a>
           </div>
           <div className="item">
             <a href="https://github.com/danielkleira">
-              <img alt="github" src={github} />
+              <AiFillGithub />
               GitHub
             </a>
           </div>
+          <div className="item">
+            <a href="https://drive.google.com/file/d/1QsNgqW4XTcT5wLOOJQr1RcWL-D0gOjph/view?usp=sharing">
+              <HiOutlineDocumentText/>
+              Curriculo
+            </a>
+          </div>
         </div>
-        <ContactForm />
+        
       </div>
     </Container>
   );

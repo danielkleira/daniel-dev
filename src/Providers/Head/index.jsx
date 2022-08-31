@@ -5,9 +5,12 @@ export const HeaderContext = createContext([]);
 export const HeaderProvider = ({ children }) => {
   const [tab, setTab] = useState("aboutMe");
   
+  
+  
 
   const chooseTab = (pag) => {
     setTab(pag);
+    
   };
 
   return (

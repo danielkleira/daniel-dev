@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: var(--bg-color);
   width: 100vw;
   height: 85vh;
   text-align: center;
@@ -10,6 +9,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   h1 {
     font-size: 48px;
   }
@@ -20,12 +21,18 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     gap: 3%;
+
+    @media (max-width: 880px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .item {
     margin: 1vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    text-align: left;
   }
   .dados {
     background-color: var(--header);
@@ -37,6 +44,8 @@ export const Container = styled.div`
     a {
       display: flex;
       align-items: center;
+      gap:1vw;
+
     }
     img {
       width: 10%;

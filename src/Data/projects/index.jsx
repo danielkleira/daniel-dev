@@ -25,7 +25,7 @@ const Projetos = [
     tecnologias:
       "HTML5, CSS3, JavaScript, React, Yup, React Toastfy, React Hook From, React Router Dom, Axios, StyledComponents",
     linkGit: "https://github.com/danielkleira/kenzieHub",
-    linkSite: "https://react-entrega-s2-kenzie-hub-danielkleira.vercel.app/",
+    linkSite: "https://kenzie-hub-danielkleira.vercel.app/",
   },
   {
     id: 3,
@@ -45,9 +45,9 @@ const Projetos = [
     descricao:
       "Uma plataforma para a organização financeira. Permite listar entradas e saídas e acompanhar seu resumo financeiro.",
     tecnologias:
-      "HTML5, CSS3, JavaScript, React, Yup, React Toastfy, React Hook From, React Router Dom, Material UI, JsonServer",
+      "HTML5, CSS3, JavaScript, React, React Toastfy",
     linkGit: "https://github.com/danielkleira/nuKenzie",
-    linkSite: "https://react-entrega-s1-nu-kenzie-danielkleira.vercel.app/",
+    linkSite: "https://nu-kenzie-danielkleira.vercel.app/",
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const Projetos = [
       "HTML5, CSS3, JavaScript, React, Yup, React Toastfy, React Hook From, React Router Dom, Material UI, JsonServer",
     linkGit: "https://github.com/danielkleira/rickAndMorty",
     linkSite:
-      "https://react-atividade-s1-buscando-mais-personagens-danielkleira.vercel.app/",
+      "https://rick-and-morty-list-danielkleira.vercel.app/",
   },
 ];
 

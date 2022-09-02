@@ -52,13 +52,13 @@ const Projetos = [
   {
     id: 5,
     imgUrl: imgkenzieshop,
-    nome: "KenzieShop",
-    descricao: "Uma loja de carros de F1 desenvolvida com context API",
+    nome: "F1Shop",
+    descricao: "Uma loja de carros de F1 desenvolvida com Redux",
     tecnologias:
-      "HTML5, CSS3, JavaScript, React, Yup, React Toastfy, React Hook From, React Router Dom, Material UI, JsonServer",
-    linkGit: "https://github.com/danielkleira/kenzieShop",
+      "HTML5, CSS3, JavaScript, React, React Router Dom, Material UI, Redux, Styled-Components",
+    linkGit: "https://github.com/danielkleira/F1-Shop",
     linkSite:
-      "https://react-entrega-s3-kenzishop-com-context-api-danielkleira.vercel.app/",
+      "https://f1shop.vercel.app/",
   },
   {
     id: 6,

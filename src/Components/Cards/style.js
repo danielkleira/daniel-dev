@@ -11,6 +11,7 @@ export const Projeto = styled.div`
   justify-content: space-between;
   background-color: black;
   gap:20px;
+  font-family: var(--body-font);
 
   .imgProjeto {
     width: 95%;

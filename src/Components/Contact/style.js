@@ -12,6 +12,8 @@ export const Container = styled.div`
   margin-bottom: 5%;
   h1 {
     font-size: 48px;
+    color: var(--green-fluo);
+    font-family: var(--body-font);
   }
   .infos {
     width: 80vw;
@@ -37,16 +39,20 @@ export const Container = styled.div`
   }
   .dados {
     background-color: var(--header);
-    width: 90%;
+    width: 50%;
     font-size: 18px;
     justify-content: center;
     border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--green-soft);
+    color: var(--green-soft);
+    font-family: var(--body-font);
 
     a {
       display: flex;
       align-items: center;
-      gap:1vw;
-
+      gap: 1vw;
+      color: var(--text-color);
     }
     img {
       width: 10%;

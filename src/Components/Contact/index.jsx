@@ -34,7 +34,7 @@ const Contact = () => {
     <Container id="contact">
       <h1>Contatos</h1>
       <div className="infos">
-      <ContactForm />
+      {/* <ContactForm /> */}
         <div className="dados">
           <div className="item">
             <a>

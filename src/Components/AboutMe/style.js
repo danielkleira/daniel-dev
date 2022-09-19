@@ -14,6 +14,7 @@ export const Container = styled.div`
     height: 40vh;
     margin-top: 10vh;
     gap: 1vw;
+    font-family: var(--body-font);
 
     @media (max-width: 880px) {
       flex-direction: column;

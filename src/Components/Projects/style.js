@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 15vh;
+  font-family: var(--body-font);
 
   h1 {
     font-size: 48px;

@@ -8,6 +8,7 @@ export const Container = styled.div`
   border-radius: 8px;
   gap: 15px;
   border: 1px solid var(--header-back);
+  font-family: var(--body-font);
   form {
     display: flex;
     color: var(--text-color);

@@ -67,7 +67,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="item">
-            <a href="https://drive.google.com/file/d/1QsNgqW4XTcT5wLOOJQr1RcWL-D0gOjph/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1stgW9FyYGZaRHJbblfbikYj0dnEtfKPM/view?usp=sharing">
               <HiOutlineDocumentText/>
               Curriculo
             </a>

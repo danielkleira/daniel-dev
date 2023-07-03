@@ -15,6 +15,9 @@ const GlobalStyle = createGlobalStyle`
 	--green-fluo:#00FF00;
 	--green-soft:#529d52;
 	--green-dark:#113111;
-   }`;
+	--button-big-text: font-family: 'Inter'; font-style: normal; font-weight: 600; font-size: 16px; color:red;
+   }
+
+   `;
 
 export default GlobalStyle;
